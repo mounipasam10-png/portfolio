@@ -8,55 +8,88 @@
 </head>
 <body>
 
-    <header>
-        <h1>Your Name</h1>
-        <p>Aspiring AI / ML Engineer</p>
-    </header>
+    <nav>
+        <div class="logo">Your Name</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-    <section>
-        <h2>About Me</h2>
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h1>Your Name</h1>
+            <p>Aspiring AI / ML Engineer</p>
+            <p>Building intelligent applications using Python, Machine Learning, Deep Learning, and AI tools.</p>
+        </div>
+        <div class="hero-image">
+            <img src="https://via.placeholder.com/250" alt="Profile Photo">
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <h2>About</h2>
         <p>
-            I am an aspiring AI and Machine Learning Engineer passionate about building
-            intelligent applications using Python, machine learning, deep learning,
-            and modern web technologies.
+            I am an aspiring AI and Machine Learning Engineer with interest in building
+            real-world intelligent systems using Python, machine learning, deep learning,
+            APIs, and web technologies.
         </p>
     </section>
 
-    <section>
+    <section id="education" class="section">
+        <h2>Education</h2>
+        <div class="card">
+            <h3>Bachelor's / Master's Degree</h3>
+            <p>Your College Name</p>
+            <p>Year - Year</p>
+        </div>
+    </section>
+
+    <section id="experience" class="section">
+        <h2>Experience</h2>
+        <div class="card">
+            <h3>Intern / Fresher / Project Experience</h3>
+            <p>Company / Self Projects</p>
+            <p>Worked on AI, ML, and web-based applications.</p>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <h2>Skills</h2>
+        <div class="skills-list">
+            <span>Python</span>
+            <span>Machine Learning</span>
+            <span>Deep Learning</span>
+            <span>TensorFlow</span>
+            <span>FastAPI</span>
+            <span>GitHub</span>
+            <span>HTML</span>
+            <span>CSS</span>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
         <h2>Projects</h2>
 
-        <div class="project-card">
+        <div class="card">
             <h3>Conversational AI Assistant (RAG-based)</h3>
-            <p>
-                Built a conversational AI assistant using OpenAI, FAISS, and FastAPI
-                for answering domain-specific queries.
-            </p>
+            <p>Built a conversational AI assistant using OpenAI, FAISS, and FastAPI for domain-specific question answering.</p>
             <a href="https://github.com/YOUR-USERNAME/rag-chatbot" target="_blank">View Project</a>
         </div>
 
-        <div class="project-card">
+        <div class="card">
             <h3>Music Genre Classification</h3>
-            <p>
-                Developed a music genre classification system using Python, Librosa,
-                MFCC feature extraction, and SVM.
-            </p>
+            <p>Developed a machine learning model using MFCC feature extraction and SVM for classifying music genres.</p>
             <a href="https://github.com/YOUR-USERNAME/music-genre-classification" target="_blank">View Project</a>
         </div>
     </section>
 
-    <section>
-        <h2>Skills</h2>
-        <ul>
-            <li>Python</li>
-            <li>Machine Learning</li>
-            <li>Deep Learning</li>
-            <li>FastAPI</li>
-            <li>TensorFlow</li>
-            <li>GitHub</li>
-        </ul>
-    </section>
-
-    <section>
+    <section id="contact" class="section">
         <h2>Contact</h2>
         <p>Email: your-email@example.com</p>
         <p>LinkedIn: your-linkedin-link</p>
